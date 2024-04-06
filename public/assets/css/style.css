@@ -3717,12 +3717,12 @@ img {
 
 .site-header {
   position: absolute;
-  padding: 15px 0;
+  padding: 25px 0;
 }
 
 .site-header.is-fixed {
   position: fixed !important;
-  background-color: #fff;
+  background-color: #404041;
   transition: all 0.8s;
   box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
   animation: slidedown 0.8s ease;
@@ -10156,4 +10156,20 @@ blockquote.wp-block-quote cite::before {
 
 .nav-active {
   color:var(--primary) !important;
+}
+.ma-y-32 {
+  margin:32px 0 !important;
+}
+.image-cercle {
+  clip-path: ellipse(50% 50%);
+  width: 300px !important;
+  height: 300px;
+}
+li {
+  margin: 10px 0;
+  padding-left: 5px;
+  &::marker {
+    content: "\27BD";
+    color: #D1812B;
+  }
 }
