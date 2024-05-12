@@ -10173,3 +10173,15 @@ li {
     color: #D1812B;
   }
 }
+.padding-x {
+padding: 0 20px;
+}
+.justify-between {
+  display: flex !important;
+  justify-content: space-around !important;
+}
+.image-container {
+  height: auto !important;
+  width: 300px;
+  border-radius: 2%;
+}
